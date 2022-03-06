@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>E-COMMERCE WEBSITE |services</title>
+        <link rel="stylesheet" type="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+    
+</head>
+    <body>
+        <nav class ="nav nav_top">
+            <div class ="logo">
+                <a href="e-commerce website.html"><img src="file:///C:/Users/lakshmiprasad/Documents/web%20practice/1stop.png"width="150"></a>
+            </div>
+        
+        <div class ="nav_side">
+            <a href="about.html">about us</a>
+            <a href="services.html">services</a>
+            
+            <a href="login.html">login</a>
+            
+        </div>
+        </nav>
+        
+        <div class="product" style="padding-top: 100px;">
+            <h2>OUR PRODUCTS</h2>
+            <div class="product_container" style="padding-bottom:50px ;">
+                <div class="item">
+                    <div class="item_img">
+                        <img src="file:///C:/Users/lakshmiprasad/Documents/web%20practice/sofa.jpeg">
+
+                    </div>
+                    <div class="item_content">
+                    <h3>SOFA</h3>
+                    <p>sofa is a </p>
+                    <a href ="https://www.urbanladder.com/sofa-set" target="_black">BUY NOW</a>
+                </div>
+                </div>
+                <div class="item">
+                    <div class="item_img">
+                        <img src=" file:///C:/Users/lakshmiprasad/Documents/web%20practice/matress.png">
+
+                    </div>
+                    <div class="item_content">
+                    <h3>MATRESS</h3>
+                    <p>MATRESS is a MATRESS </p>
+                    <a href ="" target="_black">BUY NOW</a>
+                </div>
+                </div>
+                <div class="item">
+                    <div class="item_img">
+                        <img src="file:///C:/Users/lakshmiprasad/Documents/web%20practice/table.png">
+
+                    </div>
+                    <div class="item_content">
+                    <h3>TABLE</h3>
+                    <p>TABLE is a TABLE </p>
+                    <a href ="">BUY NOW</a>
+                </div>
+                </div>
+            </div>
+            <div class="product_container">
+                <div class="item">
+                    <div class="item_img">
+                        <img src="file:///C:/Users/lakshmiprasad/Documents/web%20practice/sofa.jpeg">
+
+                    </div>
+                    <div class="item_content">
+                    <h3>SOFA</h3>
+                    <p>sofa is a </p>
+                    <a href ="https://www.urbanladder.com/sofa-set" target="_black">BUY NOW</a>
+                </div>
+                </div>
+                <div class="item">
+                    <div class="item_img">
+                        <img src=" file:///C:/Users/lakshmiprasad/Documents/web%20practice/matress.png">
+
+                    </div>
+                    <div class="item_content">
+                    <h3>MATRESS</h3>
+                    <p>MATRESS is a MATRESS </p>
+                    <a href ="" target="_black">BUY NOW</a>
+                </div>
+                </div>
+                <div class="item">
+                    <div class="item_img">
+                        <img src="file:///C:/Users/lakshmiprasad/Documents/web%20practice/table.png">
+
+                    </div>
+                    <div class="item_content">
+                    <h3>TABLE</h3>
+                    <p>TABLE is a TABLE </p>
+                    <a href ="">BUY NOW</a>
+                </div>
+                </div>
+            </div>
+        <div class="feed">
+            <h2>YOUR FEEDBACK</h2>
+            <DIV class="feed_form">
+                <form name="submit-googlesheet" method="post">
+                    <input type="text" name="name" placeholder="name"><br>
+                    <input type="email" name="email" placeholder="email"><br>
+                    <input type="number" name="number" placeholder="contact"><br>
+                    <textarea rows="5" cols="7" name="review" placeholder="write your review"></textarea><br>
+                    <button type="submit">SUBMIT</button>
+                </form>
+            </DIV>
+        </div>
+<footer>
+<div class="footer_logo">
+    <a href="#"><img src="file:///C:/Users/lakshmiprasad/Documents/web%20practice/1stop.png"width="150"></a>
+</div>
+<div class="pages">
+    <h3>pages</h3>
+    <a href="about us.html">about us</a>|
+    <a href="service us.html">services</a>|
+    <a href="login.html">login</a>|
+    <a href="contact.html">contact</a>|
+</div>
+<div class="doc">
+    <h3> Documents</h3>
+    <a href="">privacy policy</a>|
+    <a href="">terms of use</a>|
+</div>
+<div class="social">
+    <h3>follow us</h3>
+   <a href="https://www.instagram.com/1stop.ai/?hl=en" target="_black">instagram</a>|
+    <a href="https://www.linkedin.com/company/1stop-ai/?originalSubdomain=in" target="_blank"><i class="fab fa-linkedin-in"></i>linkedin</a>
+</div>
+<div class="contact">
+    <h3>contact us</h3>
+    <h6>9502267501</h6>
+    <a href="https://api.whatsapp.com/send?phone:919502267501" target="blank">whatsapp</a>
+</div>
+
+
+
+</footer>
+<script type="text/javascript">
+const scriptURL =
+'https://script.google.com/macros/s/AKfycbyFv3fZORanVSDrfs7IYE7Iz2_lo897VpWMvP_HHsN9zJwrIy9MMdQxThNBwadW4FztHQ/exec'
+const form = document.forms['submit-googlesheet']
+
+form.addEventListener('submit', e => {
+e.preventDefault()
+fetch(scriptURL, {
+    method: 'POST',
+    body: new FormData(form)
+})
+.then(response => alert(
+    "Thanks for you valuable feedback, meet you again!!!"))
+.catch(error => console.error('Error!', error.message))
+})
+
+</script>
+
+
+</body>
+</html>
